@@ -1,0 +1,33 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "standard"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        
+    ],
+   
+    "rules": {
+        "semi": [
+            "error",
+            "always"
+        ],
+        "indent": "off",
+        "camelcase": "off",
+        "no-throw-literal": 0,
+        "allowIndentationTabs": 0,
+        "no-tabs": 0
+        
+    }
+}

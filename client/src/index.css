@@ -1,0 +1,51 @@
+html,
+#root {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	/* position: absolute; */
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	zoom: 0.8 !important
+}
+.monaco-editor{
+	zoom: 1.25 !important
+}
+
+.charts-selector {
+	zoom: 1.25 !important
+}
+.cloudshell-container {
+	zoom: 1.25 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+/* scrool bar setting */
+/* Track */
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(37, 37, 37, 0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(37, 37, 37, 0.3);
+	background-color: rgb(178, 178, 178);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(158, 158, 158);
+}

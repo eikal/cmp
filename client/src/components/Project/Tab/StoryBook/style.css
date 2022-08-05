@@ -1,0 +1,8 @@
+textarea { height: 200px !important; }
+.vertical-timeline-element--work .vertical-timeline-element-content {
+ border-top: 3px solid #2196f3
+}
+
+.vertical-timeline {
+    max-width: 1600px !important;
+}

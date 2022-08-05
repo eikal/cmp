@@ -1,0 +1,85 @@
+/* laptop */
+@media (min-width: 980px) {
+    .contentModal {
+        height: 500px;
+    }
+    .monacoEditorModal{
+        height: 310px;
+    }
+    .monacoEditorJobs1{
+        height: 360px;
+    }
+    .monacoEditorOutput{
+        height: 450px;
+    }
+    .monacoEditorErr{
+        height: 220px;
+    }
+    .monacoEditor{
+        height: 350px;
+    }
+}
+
+/* bashion */
+@media (min-width: 1480px) {
+    .contentModal {
+        height: 700px;
+    }
+    .monacoEditorModal{
+        height: 530px;
+    }
+    .monacoEditorJobs{
+        height: 640px;
+    }
+    .monacoEditor{
+        height: 500px;
+    }
+}
+
+/* desktop */
+@media (min-width: 1920px) {
+    .contentModal {
+        height: 900px;
+    }
+    .monacoEditorModal{
+        height: 690px;
+    }
+    .monacoEditorJobs{
+        height: 700px;
+    }
+    .monacoEditorOutput{
+        height: 450px;
+    }
+    .monacoEditorErr{
+        height: 220px;
+    }
+    .monacoEditor{
+        height: 600px;
+    }
+}
+
+
+.wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.header {
+    flex: 1 100%;
+}
+
+.title {
+    flex: 1 75% !important
+}
+
+.contentActions {
+    flex: 1 25% !important
+}
+
+.contentModal {
+    flex: 1 100%;
+}
+
+.modified-in-monaco-diff-editor, .overflow-guard {
+    width: 100% !important
+}

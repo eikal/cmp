@@ -1,0 +1,13 @@
+import { CFRM_ACTION_JOBS_TEMPLATE } from './cfrm.js';
+import { ELK_ACTION_JOBS_TEMPLATE } from './elk.js';
+import { APACHEDS_ACTION_JOBS_TEMPLATE } from './apacheds.js';
+import { ARTEMIS_ACTION_JOBS_TEMPLATE } from './artemis.js';
+import { QUERY_EXPORTER_ACTION_JOBS_TEMPLATE } from './query-exporter.js';
+
+export {
+    CFRM_ACTION_JOBS_TEMPLATE,
+    ELK_ACTION_JOBS_TEMPLATE,
+    APACHEDS_ACTION_JOBS_TEMPLATE,
+    ARTEMIS_ACTION_JOBS_TEMPLATE,
+    QUERY_EXPORTER_ACTION_JOBS_TEMPLATE
+};

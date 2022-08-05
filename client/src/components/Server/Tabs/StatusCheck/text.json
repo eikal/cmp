@@ -1,0 +1,66 @@
+{
+    "system": {
+        "title": "System Check",
+        "text": "Verifies System check (Ping) on prometheus.query=node_network_up{instance=<server>:9100}>0"
+    },
+    "network": {
+        "title": "Network Check",
+        "text": "Verifies Telnet connectivity check to port 22."
+    },
+    "infrastructureMonitoring": {
+        "title": "Monitor Service",
+        "text": "A verify that metrics are being exported. query=http://<server>:9100/metrics"
+    },
+    "nfsMount": {
+        "title": "NFS Mount",
+        "text": "A verify that NFS is mounted. query=mount -l | grep nfs | grep /share/deployment"
+    },
+    "puppetStatus": {
+        "title": "Puppet Status",
+        "text": "A verify that puppet server is running OR Checks whether a Puppet server is properly receiving and processing HTTP requests."
+    },
+    "puppetConfig": {
+        "title": "Puppet Config",
+        "text": "A verify that puppet server is installed and configured"
+    },
+    "puppetAgent": {
+        "title": "Puppet Agent",
+        "text": "A verify that agent_disabled.lock file exists - If file exist the agent is stopped, otherwise it is running."
+    },
+    "appMonitoringCfrm": {
+        "title": "Monitor Service (Application)",
+        "text": "A verify that app service is up and running. query=http://<server>:9779"
+    },
+    "cfrmServiceSsh": {
+        "title": "CFRM Service (via ssh)",
+        "text": "A verify that CFRM service is up and running. from SSH - service status: icstatus=/opt/ic/_manager.sh status"
+    },
+    "cfrmUI": {
+        "title": "CFRM UI",
+        "text": "Verifies access to InvestigationCenter UI on prometheus.query=probe_http_status_code{job=cfrm_http_probe, instance=https://<server>:7780/InvestigationCenter}"
+    },
+    "appElkService": {
+        "title": "ELK Service",
+        "text": "A verify that ELK Service is up and running,query=http://<server>:9200"
+    },
+    "clusterElkService": {
+        "title": "ELK Cluster Status",
+        "text": "A check of the health status of a cluster.query=http://<server>:9200/_cat/health?pretty"
+    },
+    "artemisElkService": {
+        "title": "Artemis Service",
+        "text": "A verify that Artemis Service is up and running.query=http://<elk_server>:8161"
+    },
+    "apachedsElkService": {
+        "title": "ApacheDS Service",
+        "text": "A verify that ApacheDS Service is up and running.query=telnet <server>:10389"
+    },
+    "dbService": {
+        "title": "Oracle Service",
+        "text": "Verifies Telnet connectivity check to DB SERVER on port 22- if one of the calls failed - the status is unstable.query=telnet <db_server>:22"
+    },
+    "dbExporter": {
+        "title": "Query Exporter Service",
+        "text": "Query-exporter is a Prometheus exporter which allows collecting metrics from database queries, at specified time intervals.query=http://<server>:9460/metrics"
+    }
+}

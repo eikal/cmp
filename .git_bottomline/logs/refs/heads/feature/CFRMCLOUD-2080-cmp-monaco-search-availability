@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 67fea20f2f9d8f2031fce4c6e6cb1fec04ff2ac4 eperkal <eperkal@bottomline.com> 1650801102 +0300	branch: Created from refs/remotes/origin/feature/CFRMCLOUD-2080-cmp-monaco-search-availability
+67fea20f2f9d8f2031fce4c6e6cb1fec04ff2ac4 1996f0a4ca3686da8cf95ca31432333097f5e967 eperkal <eperkal@bottomline.com> 1650874640 +0300	commit: search button
+1996f0a4ca3686da8cf95ca31432333097f5e967 683605b7cb45b4dec81f9e6d62867cd928864ebc eperkal <eperkal@bottomline.com> 1650881240 +0300	commit: fix

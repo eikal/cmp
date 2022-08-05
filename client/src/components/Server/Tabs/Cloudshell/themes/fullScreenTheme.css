@@ -1,0 +1,12 @@
+body,
+html {
+  font-family: helvetica, sans-serif, arial;
+  font-size: 1em;
+  color: #111;
+  background-color: rgb(0, 0, 0);
+  color: rgb(240, 240, 240);
+  height: calc(100% - 1em);
+  margin: 0;
+  width: calc(100% - 1em);
+  padding: .5em;
+}

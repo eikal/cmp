@@ -1,0 +1,155 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	worktree = D:/cloudPlatform/cfrm-cloud-management-platform
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://bitbucket.bottomline.tech/scm/cfrm_cloud/cfrm-cloud-management-platform.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "feature/CFRMCLOUD-1068-devops-add-commands-and-actions-as-part-of-the-source-sync-service"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1068-devops-add-commands-and-actions-as-part-of-the-source-sync-service
+[branch "develop"]
+	remote = origin
+	merge = refs/heads/develop
+[branch "feature/CFRMCLOUD-1104-cmp-source-sync-create-dump-db-as-part-pull-sync"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1104-cmp-source-sync-create-dump-db-as-part-pull-sync
+[branch "bugfix/CFRMCLOUD-1238-cmp-about-add-change-label-date"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1238-cmp-about-add-change-label-date
+[branch "feature/CFRMCLOUD-1036-cmp-source-sync"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1036-cmp-source-sync
+[branch "feature/CFRMCLOUD-1018-cmp-download-cfrm-logs"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1018-cmp-download-cfrm-logs
+[branch "bugfix/CFRMCLOUD-1156-cmp-user-login-page-cannot-press-enter-key-for-login"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1156-cmp-user-login-page-cannot-press-enter-key-for-login
+[branch "feature/CFRMCLOUD-1340-cmp-actions-add-server.xml"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1340-cmp-actions-add-server.xml
+[branch "feature/CFRMCLOUD-1184-cmp-ability-to-remove-multiple-server-on-servers-tab"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1184-cmp-ability-to-remove-multiple-server-on-servers-tab
+[branch "feature/CFRMCLOUD-1273-cmp-view-logs-view-format"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1273-cmp-view-logs-view-format
+[branch "feature/CFRMCLOUD-1273-cmp-view-logs-view-format-v2"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1273-cmp-view-logs-view-format-v2
+[branch "feature/CFRMCLOUD-1464-toggle-theme-mode-for-log-modal"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1464-toggle-theme-mode-for-log-modal
+[branch "feature/CFRMCLOUD-1458-cmp-add-configuration-section-to-actions-to-managed-cfrm-configuration"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1458-cmp-add-configuration-section-to-actions-to-managed-cfrm-configuration
+[branch "feature/CFRMCLOUD-1370-cmp-actions-add-artemis-logs"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1370-cmp-actions-add-artemis-logs
+[branch "feature/CFRMCLOUD-1476-cmp-confirmation-add-confirmation-to-actions"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1476-cmp-confirmation-add-confirmation-to-actions
+[branch "bugfix/CFRMCLOUD-1479-cmp-live-log-screen-is-blinking"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1479-cmp-live-log-screen-is-blinking
+[branch "feature/CFRMCLOUD-1341-cmp-facts-tab-show-puppet-details-foreman-api"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1341-cmp-facts-tab-show-puppet-details-foreman-api
+[branch "feature/CFRMCLOUD-1681-cmp-puppet-tab-reports-failed-column-with-color"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1681-cmp-puppet-tab-reports-failed-column-with-color
+[branch "bugfix/CFRMCLOUD-1690-cmp-puppet-environment-edit-cancel-option-is-not-ok"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1690-cmp-puppet-environment-edit-cancel-option-is-not-ok
+[branch "feature/CFRMCLOUD-1634-cmp-logs-modal-size"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1634-cmp-logs-modal-size
+[branch "feature/CFRMCLOUD-1533-cmp-logs-selecting-more-than-1-service-add-tooltip"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1533-cmp-logs-selecting-more-than-1-service-add-tooltip
+[branch "bugfix/CFRMCLOUD-1637-cmp-elasticsearch-logs-there-are-no-elasticsearch-on-logs-modal"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1637-cmp-elasticsearch-logs-there-are-no-elasticsearch-on-logs-modal
+[branch "feature/CFRMCLOUD-1649-cmp-actions-ssh-command-please-add-command-to-the-jobs-modal"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1649-cmp-actions-ssh-command-please-add-command-to-the-jobs-modal
+[branch "feature/CFRMCLOUD-1585-cmp-actions-modal-add-server-name-to-each-modal-that-is-opened"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1585-cmp-actions-modal-add-server-name-to-each-modal-that-is-opened
+[branch "feature/CFRMCLOUD-1636-cmp-edit-edit-files"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1636-cmp-edit-edit-files
+[branch "feature/CFRMCLOUD-1698-cmp-puppet-tab-new-sidebar-external-facts"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1698-cmp-puppet-tab-new-sidebar-external-facts
+[branch "feature/CFRMCLOUD-1807-cmp-edit-add-action-job-audit-log-when-updating-file"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1807-cmp-edit-add-action-job-audit-log-when-updating-file
+[branch "bugfix/CFRMCLOUD-1873-cmp-app-is-not-responding-value-must-be-typeof-string"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1873-cmp-app-is-not-responding-value-must-be-typeof-string
+[branch "bugfix/CFRMCLOUD-1520-cmp-puppet-update-action-output-logs-not-showing-in-the-correct-format-in"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1520-cmp-puppet-update-action-output-logs-not-showing-in-the-correct-format-in
+[branch "bugfix/CFRMCLOUD-1869-cmp-edit-edit-files-remove-headline-edit-mode-after-canceling-the-edit"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1869-cmp-edit-edit-files-remove-headline-edit-mode-after-canceling-the-edit
+[branch "bugfix/CFRMCLOUD-1872-cmp-edit-edit-files-reload-botton-is-not-ok"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1872-cmp-edit-edit-files-reload-botton-is-not-ok
+[branch "bugfix/CFRMCLOUD-1879-cmp-edit-bkp-files-are-not-on-modal"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1879-cmp-edit-bkp-files-are-not-on-modal
+[branch "bugfix/CFRMCLOUD-1541-cmp-servers-actions-when-selecting-more-then-1-server"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1541-cmp-servers-actions-when-selecting-more-then-1-server
+[branch "bugfix/CFRMCLOUD-1907-cmp-external-facts-data-is-not-reloaded-when-switching-between-servers"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1907-cmp-external-facts-data-is-not-reloaded-when-switching-between-servers
+[branch "bugfix/CFRMCLOUD-1780-cmp-actions-logs-when-logs-don-t-exist-the-display-is-not-user-friendly"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1780-cmp-actions-logs-when-logs-don-t-exist-the-display-is-not-user-friendly
+[branch "feature/CFRMCLOUD-1876-cmp-use-new-code-mirror-research"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1876-cmp-use-new-code-mirror-research
+[branch "feature/CFRMCLOUD-1456-cmp-attached-server-add-ability-on-attach-server-to-search-hostname-on"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1456-cmp-attached-server-add-ability-on-attach-server-to-search-hostname-on
+[branch "bugfix/CFRMCLOUD-1882-cmp-edit-edit-files-edit-mode-tooltip-should-be-next-to-icon"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1882-cmp-edit-edit-files-edit-mode-tooltip-should-be-next-to-icon
+[branch "bugfix/CFRMCLOUD-1923-cmp-uncaught-typeerror-e.closemodal-is-not-a-function"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-1923-cmp-uncaught-typeerror-e.closemodal-is-not-a-function
+[branch "feature/CFRMCLOUD-1937-cmp-use-new-code-mirror-develop"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1937-cmp-use-new-code-mirror-develop
+[branch "feature/CFRMCLOUD-1798-cmp-firefox-support-firefox"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1798-cmp-firefox-support-firefox
+[branch "feature/CFRMCLOUD-1751-cmp-edit-keep-files-revisions-file-history"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1751-cmp-edit-keep-files-revisions-file-history
+[branch "CFRMCLOUD-2113-cmp-allow-any-case-for-username-during-login-to-cmp"]
+	remote = origin
+	merge = refs/heads/CFRMCLOUD-2113-cmp-allow-any-case-for-username-during-login-to-cmp
+[branch "feature/CFRMCLOUD-2080-cmp-monaco-search-availability"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-2080-cmp-monaco-search-availability
+[branch "feature/CFRMCLOUD-1178-cmp-ssh-terminal-to-linux-server-part-1-research"]
+	remote = origin
+	merge = refs/heads/feature/CFRMCLOUD-1178-cmp-ssh-terminal-to-linux-server-part-1-research
+[branch "bugfix/CFRMCLOUD-2012-cmp-storybook-text-fails-due-to-word-size-limit"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-2012-cmp-storybook-text-fails-due-to-word-size-limit
+[branch "bugfix/CFRMCLOUD-2286-cmp-puppet-update-modal-issues"]
+	remote = origin
+	merge = refs/heads/bugfix/CFRMCLOUD-2286-cmp-puppet-update-modal-issues

@@ -1,8 +1,0 @@
-0000000000000000000000000000000000000000 7e4fe59d00bc36861a4dd03a0cf8202a2f3b2ca4 eperkal <eperkal@bottomline.com> 1658741947 +0300	branch: Created from refs/remotes/origin/bugfix/CFRMCLOUD-2012-cmp-storybook-text-fails-due-to-word-size-limit
-7e4fe59d00bc36861a4dd03a0cf8202a2f3b2ca4 fb7679447f4e4ad7e399e42ff0eb5d73db804a55 eperkal <eperkal@bottomline.com> 1658752177 +0300	commit: overflow
-fb7679447f4e4ad7e399e42ff0eb5d73db804a55 051597a864d7ae298d58bd8a99530c97e014c843 eperkal <eperkal@bottomline.com> 1658838554 +0300	commit: overflow text story book
-051597a864d7ae298d58bd8a99530c97e014c843 8dffe07f05cb107bbce667664ab8e906155ad80c eperkal <eperkal@bottomline.com> 1658864554 +0300	commit: fix css
-8dffe07f05cb107bbce667664ab8e906155ad80c 0275b704b0f560018595f5bfc917ea5d85cb0538 eperkal <eperkal@bottomline.com> 1658905371 +0300	commit: empty lines
-0275b704b0f560018595f5bfc917ea5d85cb0538 9c1c6511afe4f46615c895268a159f9e2e64ae78 eperkal <eperkal@bottomline.com> 1658905533 +0300	commit: css
-9c1c6511afe4f46615c895268a159f9e2e64ae78 af56121ed89f59fb5eacc740a50272ff91f5d809 eperkal <eperkal@bottomline.com> 1658906488 +0300	commit: 20
-af56121ed89f59fb5eacc740a50272ff91f5d809 3dd1d0147e0cd42cf28e5305f7b806604ceeb53c eperkal <eperkal@bottomline.com> 1658907721 +0300	commit: arrow

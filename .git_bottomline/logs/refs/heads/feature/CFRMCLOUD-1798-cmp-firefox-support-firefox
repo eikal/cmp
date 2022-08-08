@@ -1,4 +1,0 @@
-0000000000000000000000000000000000000000 335fbac5135bbdf8a11c6c6679e0f4185b11fe61 eperkal <eperkal@bottomline.com> 1647774352 +0200	branch: Created from refs/remotes/origin/feature/CFRMCLOUD-1798-cmp-firefox-support-firefox
-335fbac5135bbdf8a11c6c6679e0f4185b11fe61 f80af79784bfbfd52fe59f17eb6934c3cf59618c eperkal <eperkal@bottomline.com> 1647774534 +0200	commit: fix html forms
-f80af79784bfbfd52fe59f17eb6934c3cf59618c b6a7993b760e30208e3dcd01307d3811521c2e39 eperkal <eperkal@bottomline.com> 1647857724 +0200	commit: fix br
-b6a7993b760e30208e3dcd01307d3811521c2e39 8df33bae594a353b9e40412dc0bbf4f984147f25 eperkal <eperkal@bottomline.com> 1647862338 +0200	pull origin develop: Fast-forward

@@ -35,7 +35,7 @@ import TuneIcon from '@material-ui/icons/Tune';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import WebIcon from '@material-ui/icons/Web';
 import { isAdminUser, isSuperAdminUser } from '../../../helpers/auth.js';
-import logo from '../../../assets/logos/Bottomline-Logo.png';
+import logo from '../../../assets/logos/Inspector-Logo';
 import Loader from '../Loader';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';

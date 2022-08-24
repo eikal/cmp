@@ -13,7 +13,7 @@ import Container from '@material-ui/core/Container';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import logo from '../../assets/logos/Bottomline-Logo.png';
+import logo from '../../assets/logos/Inspector-Logo';
 import axios from 'axios'
 
 function Copyright() {

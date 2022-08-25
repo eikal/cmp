@@ -13,19 +13,19 @@ import Container from '@material-ui/core/Container';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import logo from '../../assets/logos/Inspector-Logo';
+import logo from '../../assets/logos/Inspector-Logo.png';
 import axios from 'axios'
 
 function Copyright() {
 	return (
 		<div>
-			<Typography variant="body2" color="textSecondary" align="center">
-				Developed and Maintained by CFRM Cloud DevOps Team
-			</Typography>
+			{/* <Typography variant="body2" color="textSecondary" align="center">
+				Developed and Maintained by ... Team
+			</Typography> */}
 			<Typography variant="body2" color="textSecondary" align="center">
 				{'Copyright © '}
-				<Link color="inherit" href="https://www.bottomline.com">
-					Bottomline Technologies
+				<Link color="inherit" href="https://www.sreops.com">
+					SRE-OPS Technologies
 				</Link>
 			</Typography>
 		</div>
@@ -137,7 +137,7 @@ const Login = () => {
 				<img src={logo} alt="Logo" loading='lazy' style={{ width: "300px" }} />
 
 
-				<span style={{ fontStyle: "normal", fontWeight: 100, fontSize: "20px", color: "#333333" }}>CFRM Cloud Management Platform</span>
+				<span style={{ fontStyle: "normal", fontWeight: 100, fontSize: "20px", color: "#333333" }}>SRE & DEVOPS Management Platform</span>
 
 				<div className={classes.form}>
 					<TextField variant="outlined" margin="normal" required fullWidth id="username" label="Username"

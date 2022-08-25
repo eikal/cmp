@@ -23,7 +23,7 @@ import { Card, CardContent } from '@material-ui/core';
 import Tooltip from '@material-ui/core/Tooltip';
 import HostsTransferList from './HostsTransferList.jsx';
 import amazonlogo from '../../../assets/logos/AmazonWebService-Logo.png';
-import btlogo from '../../../assets/logos/Inspector-Logo';
+import btlogo from '../../../assets/logos/Inspector-Logo.png';
 import gcplogo from '../../../assets/logos/GCP-Logo.png';
 import azurelogo from '../../../assets/logos/Azure-Logo.png';
 import axios from 'axios';

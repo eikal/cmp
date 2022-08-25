@@ -1,4 +1,4 @@
-# CFRM Cloud Management Platform
+# SRE & DEVOPS Management Platform
 
 
 ### Features
